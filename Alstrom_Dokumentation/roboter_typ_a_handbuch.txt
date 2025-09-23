@@ -1,0 +1,79 @@
+Häufige Fehlercodes:
+- E-301: Motorüberhitzung im Hauptgelenk
+- E-405: Kalibrierungsfehler im Greifarm
+- E-118: Kommunikationsstörung mit der Steuereinheit
+
+Standardwartungsintervalle:
+- Tägliche Sichtprüfung
+- Wöchentliche Kalibrierung der Gelenkpositionen
+- Monatlicher Austausch der Hydraulikflüssigkeit
+- Jährliche vollständige Überholung
+
+Bei E-301 Fehler (Motorüberhitzung):
+1. Sofort Roboter in Sicherheitsmodus versetzen
+2. Kühlsystem auf Lecks prüfen
+3. Temperaturwerte über Diagnoseschnittstelle auslesen
+4. Lüftungsschlitze reinigen
+5. Bei Temperatur >85°C Notabschaltung durchführen
+
+Fehlerdiagnose-Handbuch: Industrieroboter Typ A-2000
+    
+
+Problembehebung für häufige Störungen:
+    
+    Problem: Roboter führt unregelmäßige Bewegungen aus
+    Mögliche Ursachen:
+    - Kalibrierungsverlust der Achsen
+    - Beschädigte Encoder
+    - Interferenzen in der Stromversorgung
+    - Fehlerhafte Parameter im Bewegungsprofil
+    
+    Diagnoseschritte:
+    1. Diagnosesoftware DiagBot starten
+    2. Funktion "AxisCalibCheck" ausführen
+    3. Spannungsmessungen an Testpunkten TP5 und TP8 durchführen
+    4. Encoder-Signale mit Oszilloskop überprüfen
+    
+    Problem: E-405 Fehler (Kalibrierungsfehler Greifarm)
+    Mögliche Ursachen:
+    - Beschädigte Positionssensoren
+    - Fehlkalibrierung nach Werkzeugwechsel
+    - Verschlissene Getriebebauteile
+    - Verbogene mechanische Komponenten nach Kollision
+    
+    Diagnoseschritte:
+    1. Sichtprüfung auf mechanische Schäden
+    2. Referenzfahrt in Grundposition durchführen
+    3. Parameter P455-P460 im Servicemenü überprüfen
+    4. Kalibrierungsprozedur K-405 durchführen
+    
+    Problem: E-118 Fehler (Kommunikationsstörung)
+    Mögliche Ursachen:
+    - Beschädigte Netzwerkkabel
+    - Fehlerhafte Busmodule
+    - Softwarefehler in der Steuerungseinheit
+    - EMV-Störungen durch Schweißanlagen
+    
+    Diagnoseschritte:
+    1. Netzwerkdiagnose mit NetCheck-Tool durchführen
+    2. Kommunikationslog auf Fehlermuster prüfen
+    3. Steuereinheit neu starten (Reset-Sequenz R-5)
+    4. Busspannungen an Testpunkten TB1-TB4 messen
+    
+    Tiefere Diagnose der E-301 Störung (Motorüberhitzung):
+    
+    Erweitertes Diagnoseverfahren:
+    1. Temperaturverlauf über mindestens 30 Minuten aufzeichnen
+    2. Parameter T301-T315 aus Temperatursensoren auslesen
+    3. Kühlsystem-Drucktest durchführen (min. 1,5 bar)
+    4. Stromaufnahme des Motors bei langsamer (10%) und mittlerer (50%) Geschwindigkeit messen
+    
+    Typische Messwerte bei ordnungsgemäßem Betrieb:
+    - Motortemperatur im Leerlauf: 35-45°C
+    - Motortemperatur bei Volllast: 55-75°C
+    - Stromaufnahme Leerlauf: 1,2-1,5A
+    - Stromaufnahme Volllast: 4,8-5,3A
+    - Kühlmitteldurchfluss: 2,5-3,0 l/min
+    
+    Wenn Temperatur >85°C oder Stromaufnahme >5,5A: 
+    Sofort Roboter abschalten und Instandhaltungsleitung informieren!

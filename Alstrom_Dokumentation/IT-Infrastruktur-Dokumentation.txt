@@ -1,0 +1,30 @@
+IT-Infrastruktur-Dokumentation – Alstom Interne Systeme
+Version 3.1 – Letztes Update: 05.03.2024
+Erstellt durch: Global IT Operations
+
+1. Server- und Netzwerkstruktur:
+Standort: Rechenzentrum Frankfurt
+
+Virtuelle Maschinen mit VMware vSphere 7
+
+Redundante Glasfaserverbindung (40 Gbit)
+
+Server-Räume mit Brandfrüherkennung & Klimaregelung
+
+2. VPN-Nutzung – Anleitungen für Mitarbeitende:
+Tool: Cisco AnyConnect
+
+Zwei-Faktor-Authentifizierung via MobileToken
+
+Anleitung zur Installation auf Windows/macOS
+
+Supportzeiten: Mo–Fr, 8–17 Uhr
+
+3. Lizenzverwaltung – Office-Software:
+Microsoft 365 Business Premium
+
+Lizenz pro Nutzer – zentral verwaltet über Azure AD
+
+Gültig bis: 31.12.2024
+
+Verlängerung automatisch alle 12 Monate

@@ -1,0 +1,63 @@
+ Materialkunde: Werkstoffe in der Automobilproduktion
+    
+    Stahlsorten und ihre Anwendungen:
+    
+    1. Tiefziehstahl (DC04/DC05)
+    - Anwendung: Außenhautteile, komplexe Formteile
+    - Eigenschaften: Hohe Verformbarkeit, gute Oberflächenqualität
+    - Besonderheiten bei der Verarbeitung: Niedrige Umformkräfte, geringe Rückfederung
+    
+    2. Hochfester Stahl (HX340LAD)
+    - Anwendung: Strukturbauteile, Verstärkungen
+    - Eigenschaften: Hohe Festigkeit bei gleichzeitig guter Umformbarkeit
+    - Besonderheiten bei der Verarbeitung: Höhere Umformkräfte, stärkerer Werkzeugverschleiß
+    
+    3. Presshärtender Stahl (22MnB5)
+    - Anwendung: Sicherheitsrelevante Strukturteile (A/B-Säulen, Schweller)
+    - Eigenschaften: Sehr hohe Festigkeit nach Wärmebehandlung
+    - Besonderheiten bei der Verarbeitung: Warmumformung bei ca. 950°C, anschließende Abschreckung im Werkzeug
+    
+    Aluminiumlegierungen:
+    
+    1. AlMg3 (EN AW-5754)
+    - Anwendung: Innenteile, Verkleidungen
+    - Eigenschaften: Mittlere Festigkeit, gute Korrosionsbeständigkeit
+    - Besonderheiten bei der Verarbeitung: Niedrige Wärmeleitfähigkeit beim Schweißen beachten
+    
+    2. AlMgSi1 (EN AW-6082)
+    - Anwendung: Strukturbauteile, Fahrwerkskomponenten
+    - Eigenschaften: Hohe Festigkeit, gute Zerspanbarkeit
+    - Besonderheiten bei der Verarbeitung: Aushärtbar durch Wärmebehandlung
+    
+    Kunststoffe:
+    
+    1. Polypropylen (PP)
+    - Anwendung: Stoßfänger, Instrumententafel
+    - Eigenschaften: Gute Chemikalienbeständigkeit, kosteneffizient
+    - Besonderheiten bei der Verarbeitung: Spritzgusstemperatur 220-260°C
+    
+    2. Polyamid 6.6 (PA66)
+    - Anwendung: Motorkomponenten, Luftführungen
+    - Eigenschaften: Hohe Temperaturbeständigkeit, gute mechanische Eigenschaften
+    - Besonderheiten bei der Verarbeitung: Trocknung vor Verarbeitung erforderlich
+    
+    Materialprüfung in der Produktion:
+    
+    Stahl:
+    - Zugversuch nach DIN EN ISO 6892-1
+    - Erichsen-Tiefungsversuch für Blechwerkstoffe
+    - Spektralanalyse zur Prüfung der chemischen Zusammensetzung
+    
+    Aluminium:
+    - Härteprüfung nach Brinell
+    - Korrosionstest im Salzsprühnebel
+    
+    Kunststoffe:
+    - Schlagzähigkeitsprüfung nach Charpy
+    - Brandverhalten nach FMVSS 302
+    
+    Bei Materialabweichungen:
+    1. Material sperren (rote Sperrkarte anbringen)
+    2. Qualitätssicherung informieren
+    3. Materialprobe an Labor senden
+    4. Lieferanten kontaktieren

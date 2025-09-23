@@ -1,0 +1,48 @@
+Notfallplan: Verfahren bei Stromausfall
+    
+    Prioritäten:
+    1. Personensicherheit gewährleisten
+    2. Produktschäden minimieren
+    3. Anlagenschäden verhindern
+    4. Produktionsausfall minimieren
+    
+    Sofortmaßnahmen:
+    - Ruhe bewahren und Mitarbeiter informieren
+    - Alle Arbeiten an Maschinen sofort einstellen
+    - Werkstücke sichern falls möglich
+    - Auf Notbeleuchtung achten (Aktivierung erfolgt automatisch)
+    - Fluchtwege freihalten
+    
+    Verantwortlichkeiten:
+    - Schichtleiter: Koordination aller Maßnahmen, Kommunikation mit Werkleitung
+    - Instandhaltung: Überprüfung kritischer Anlagen, Vorbereitung Wiederanlauf
+    - Sicherheitsbeauftragte: Überprüfung Personensicherheit, Gebäudezugang kontrollieren
+    - IT: Überwachung Server-Notstromversorgung, Datensicherheit gewährleisten
+    
+    Besondere Anweisungen für kritische Produktionsbereiche:
+    
+    Lackiererei:
+    - Lackversorgung abschalten (manuelle Ventile V1, V2 und V3 schließen)
+    - Lüftungsnotbetrieb prüfen (über Notstromaggregat)
+    - Lackierkabinen versiegeln
+    
+    Roboterschweißstraße:
+    - Schweißroboter fahren automatisch in Sicherheitsposition
+    - Nach >2 Minuten Stromausfall: Schutzgas manuell abschalten
+    - Schweißsteuerungen kontrolliert herunterfahren (wenn noch Reststrom über USV)
+    
+    Montagelinien:
+    - Hängende Lasten sofort sichern
+    - Pneumatiksystem entlüften (Hauptventil H7 schließen, Entlüftung E3 öffnen)
+    
+    Wiederanlauf nach Stromversorgung:
+    1. Stufenweise Aktivierung der Anlagen (nicht alle gleichzeitig!)
+    2. Priorität: Server, Steuerungssysteme, Kühlsysteme, Produktionsanlagen
+    3. Vollständige Systemprüfung vor Wiederaufnahme der Produktion
+    4. Testlauf jeder Produktionslinie durchführen
+    
+    Dokumentation:
+    - Gesamtdauer des Ausfalls
+    - Betroffene Bereiche
+    - Entstandene Schäden
+    - Durchgeführte Maßnahmen

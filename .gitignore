@@ -1,0 +1,12 @@
+.ragenv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+notizen.txt
+.ipynb_checkpoints
+.vscode/       
+
+alt/

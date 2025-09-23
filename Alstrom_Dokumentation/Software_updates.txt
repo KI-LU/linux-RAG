@@ -1,0 +1,28 @@
+Software-Update-Protokoll für Produktionssteuerungssysteme
+    
+    Robotersteuerung ProControl v4.5:
+    - Update auf v4.6 verfügbar seit 15.01.2024
+    - Hauptänderungen: Verbesserte Kollisionserkennung, reduzierte Latenz bei Bewegungsänderungen
+    - Installationszeit: ca. 45 Minuten pro Roboter
+    - Voraussetzung: Datensicherung der aktuellen Konfiguration mit Tool BackupPro
+    - Nach Update: Kalibrierung aller Achsen erforderlich
+    
+    Montageliniensteuerung AssemblyMaster v2.8:
+    - Update auf v3.0 verfügbar seit 05.03.2024
+    - Hauptänderungen: Neue UI, optimierte Energiesparfunktionen, erweitertes Logging
+    - Installationszeit: 2 Stunden (gesamte Linie muss offline sein)
+    - Vor Update: Alle aktuellen Produktionsdaten exportieren (Funktion "Export_All")
+    - Bekanntes Problem: Nach Update kann Sensor-Timeout-Parameter zurückgesetzt sein
+    
+    Qualitätssicherungssystem QCheck v7.2:
+    - Sicherheitsupdate v7.2.1 verfügbar seit 20.02.2024 (Kritisch!)
+    - Behebt Sicherheitslücke in Netzwerkprotokoll
+    - Installationszeit: 30 Minuten
+    - Keine Produktionsunterbrechung notwendig
+    
+    Update-Verfahren:
+    1. Update-Zeitraum mit Produktionsplanung abstimmen
+    2. Systemadministrator mindestens 48h vorab informieren
+    3. Updates nur im Wartungsfenster (Sa-So) durchführen
+    4. Vollständiges Backup vor jedem Update erstellen
+    5. Erfolgstest nach Update durchführen und dokumentieren

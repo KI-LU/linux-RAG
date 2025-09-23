@@ -1,0 +1,17 @@
+Sicherheitsvorschriften für Wartungsarbeiten
+
+Vor jeder Wartung:
+- Lockout/Tagout-Verfahren anwenden
+- Persönliche Schutzausrüstung tragen (Helm, Schutzbrille, Handschuhe)
+- Wartungsbereich absperren
+
+Bei Arbeiten an Hochspannungskomponenten:
+- Nur zertifiziertes Personal darf diese durchführen
+- Spannungsfreiheit mit geprüftem Messgerät feststellen
+- Erdungskabel anbringen
+
+Bei Notfällen:
+- Roten Notaus-Schalter betätigen
+- Vorgesetzten informieren
+- Bei Verletzungen: Ersthelfer rufen, Unfallbericht ausfüllen
+

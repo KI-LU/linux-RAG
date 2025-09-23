@@ -1,0 +1,18 @@
+Standard Operating Procedure: Montagelinie B
+
+Anlaufprotokoll:
+1. Hauptstromversorgung einschalten
+2. Druckluftsystem auf mindestens 6 bar prüfen
+3. Steuerungssoftware starten - Passwort: techniker2023
+4. Selbsttest durchführen
+5. Referenzfahrt aller Achsen initiieren
+
+Tägliche Prüfpunkte:
+- Förderband auf Verschleiß prüfen
+- Sensoren an Übergabestationen reinigen
+- Sicherheitsschalter testen
+- Notstopps auf Funktion prüfen
+
+Produktwechsel:
+Bei Umstellung von Modell X auf Modell Y muss das Programm P-45 geladen werden.
+Werkzeugwechsel an Station 3 und 7 erforderlich.
