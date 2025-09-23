@@ -16,7 +16,11 @@ def set_query(task: str):
 import json
 bench_df = [] 
 def fill_bench_df(question: str, ground_truth: str, GPT_answer: str, GPT_score: str , RAG_answer: str, RAG_relevance: str, RAG_use: str, RAG_completeness: str, filename: str = 'benchmark.json'):
-
+    try:
+        with open(filename, 'r') as file:
+            bench_df = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        bench_df = []
        
     id = len(bench_df) + 1
     special_chars = {ord('ä'):'ae', ord('ü'):'ue', ord('ö'):'oe', ord('ß'):'ss'}
@@ -72,8 +76,6 @@ def insert_GPT_answer(filename: str = 'benchmark.json'):
     if not found:
         print(f"Keine Frage mit der ID {id_input} gefunden.")
 
-    bench_df.append(entry)    
-
     with open(filename, 'w') as file:
         json.dump(bench_df, file)
     return bench_df        
@@ -108,8 +110,7 @@ def insert_rag_answer(filename: str = 'benchmark.json'):
             break
     if not found:
         print(f"Keine Frage mit der ID {id_input} gefunden.")                
-                       
-    bench_df.append(entry)    
+                        
     with open(filename, 'w') as file:
         json.dump(bench_df, file)
     return bench_df   
@@ -142,8 +143,7 @@ def insert_rag_use(filename: str = 'benchmark.json'):
             break
     if not found:
         print(f"Keine Frage mit der ID {id_input} gefunden.")                
-                       
-    bench_df.append(entry)    
+                        
     with open(filename, 'w') as file:
         json.dump(bench_df, file)
     return bench_df 
@@ -176,8 +176,7 @@ def insert_GPT_score(filename: str = 'benchmark.json'):
             break
     if not found:
         print(f"Keine Frage mit der ID {id_input} gefunden.")                
-                       
-    bench_df.append(entry)    
+       
     with open(filename, 'w') as file:
         json.dump(bench_df, file)
     return bench_df 
@@ -211,7 +210,7 @@ def insert_rag_relevance(filename: str = 'benchmark.json'):
     if not found:
         print(f"Keine Frage mit der ID {id_input} gefunden.")                
                        
-    bench_df.append(entry)    
+   
     with open(filename, 'w') as file:
         json.dump(bench_df, file)
     return bench_df 
@@ -247,7 +246,6 @@ def insert_rag_completeness(filename: str = 'benchmark.json'):
     if not found:
         print(f"Keine Frage mit der ID {id_input} gefunden.")                
                        
-    bench_df.append(entry)    
     with open(filename, 'w') as file:
         json.dump(bench_df, file)
     return bench_df 

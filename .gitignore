@@ -1,4 +1,5 @@
 .ragenv/
+.rag/
 
 __pycache__/
 *.pyc
@@ -10,3 +11,5 @@ notizen.txt
 .vscode/       
 
 alt/
+
+benchmark.json
