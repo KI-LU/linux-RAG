@@ -31,11 +31,9 @@ def fill_bench_df(question: str, ground_truth: str, GPT_answer: str, GPT_score: 
     RAG_answer = "" 
     RAG_relevance = ""
     RAG_use = ""
-    RAG_completeness = "" 
-
     
 
-    entry = {"id": id}, {"Frage": question}, {"richtige Antwort": ground_truth}, {"GPT Antwort": GPT_answer}, {"Bewertung GPT":GPT_score}, {"RAG-Bot Antwort": RAG_answer}, {"Textnutzung":RAG_use}, {"Relevanz":RAG_relevance}, {"Vollständigkeit":RAG_completeness}
+    entry = {"id": id}, {"Frage": question}, {"richtige Antwort": ground_truth}, {"GPT Antwort": GPT_answer}, {"Bewertung GPT":GPT_score}, {"RAG-Bot Antwort": RAG_answer}, {"Relevanz":RAG_relevance}, {"Textnutzung":RAG_use}
     bench_df.append(entry)
 
     with open(filename, 'w') as file:
@@ -56,7 +54,6 @@ def insert_GPT_answer(filename: str = 'benchmark.json'):
     found = False
 
     for entry in bench_df: 
-        print(f"this is entry: {entry}")
         for d in entry:  
             print(f"this is d: {d}")
             if d.get("id") == int(id_input):

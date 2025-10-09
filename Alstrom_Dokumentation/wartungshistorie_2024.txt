@@ -7,7 +7,7 @@ Maßnahme: Filter gereinigt, Lüfter ersetzt
 
 28.02.2024:
 Montagelinie B - Störung im Anlaufprozess
-Ursache: Druckluftsystem unter 5 bar gefallen
+Ursache: Druckluftsystem unter 3 bar gefallen
 Maßnahme: Kompressor repariert, Leckage behoben
 
 17.03.2024:
